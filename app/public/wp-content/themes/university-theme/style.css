@@ -3,3 +3,6 @@ Theme Name: Fictional University
 Author: Alex
 Version: 1.0
 */
+body {
+    color: green;
+}
