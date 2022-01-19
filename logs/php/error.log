@@ -30,3 +30,10 @@ Stack trace:
 #2 C:\Users\user_0\Local Sites\university\app\public\index.php(17): require('C:\\Users\\user_0...')
 #3 {main}
   thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\page.php on line 15
+[19-Jan-2022 12:45:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echo_get_the_title() in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\page.php:29
+Stack trace:
+#0 C:\Users\user_0\Local Sites\university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\user_0\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\user_0...')
+#2 C:\Users\user_0\Local Sites\university\app\public\index.php(17): require('C:\\Users\\user_0...')
+#3 {main}
+  thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\page.php on line 29
