@@ -37,3 +37,4 @@ Stack trace:
 #2 C:\Users\user_0\Local Sites\university\app\public\index.php(17): require('C:\\Users\\user_0...')
 #3 {main}
   thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\page.php on line 29
+[24-Jan-2022 12:07:12 UTC] PHP Parse error:  syntax error, unexpected '/' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single.php on line 17
