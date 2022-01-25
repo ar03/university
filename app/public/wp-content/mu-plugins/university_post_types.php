@@ -1,6 +1,8 @@
 <?php
 function university_post_types() { //Custom Post Type
-    register_post_type('event', array(
+    register_post_type('event', array( //names 'event' URL slug
+        'rewrite' => array('slug' => 'events'), //adds plurality to slug
+        'has_archive' => true, //creats URL
         'public' => true,
         'labels' => array( //Changes the labels in the admin menu
             'name' => 'Events',

@@ -54,3 +54,15 @@ Stack trace:
 [24-Jan-2022 12:48:46 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\header.php on line 23
 [24-Jan-2022 12:48:58 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\header.php on line 23
 [24-Jan-2022 12:49:06 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\header.php on line 23
+[25-Jan-2022 12:20:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\user_0\Local Sites\university\app\public\wp-admin\includes\translation-install.php on line 68
+[25-Jan-2022 12:20:09 UTC] PHP Stack trace:
+[25-Jan-2022 12:20:09 UTC] PHP   1. {main}() C:\Users\user_0\Local Sites\university\app\public\wp-admin\options-general.php:0
+[25-Jan-2022 12:20:09 UTC] PHP   2. wp_get_available_translations() C:\Users\user_0\Local Sites\university\app\public\wp-admin\options-general.php:159
+[25-Jan-2022 12:20:09 UTC] PHP   3. translations_api() C:\Users\user_0\Local Sites\university\app\public\wp-admin\includes\translation-install.php:133
+[25-Jan-2022 12:20:09 UTC] PHP   4. trigger_error() C:\Users\user_0\Local Sites\university\app\public\wp-admin\includes\translation-install.php:68
+[25-Jan-2022 12:21:06 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\user_0\Local Sites\university\app\public\wp-admin\includes\translation-install.php on line 68
+[25-Jan-2022 12:21:06 UTC] PHP Stack trace:
+[25-Jan-2022 12:21:06 UTC] PHP   1. {main}() C:\Users\user_0\Local Sites\university\app\public\wp-admin\options-general.php:0
+[25-Jan-2022 12:21:06 UTC] PHP   2. wp_get_available_translations() C:\Users\user_0\Local Sites\university\app\public\wp-admin\options-general.php:159
+[25-Jan-2022 12:21:06 UTC] PHP   3. translations_api() C:\Users\user_0\Local Sites\university\app\public\wp-admin\includes\translation-install.php:133
+[25-Jan-2022 12:21:06 UTC] PHP   4. trigger_error() C:\Users\user_0\Local Sites\university\app\public\wp-admin\includes\translation-install.php:68
