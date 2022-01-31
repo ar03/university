@@ -66,3 +66,4 @@ Stack trace:
 [25-Jan-2022 12:21:06 UTC] PHP   2. wp_get_available_translations() C:\Users\user_0\Local Sites\university\app\public\wp-admin\options-general.php:159
 [25-Jan-2022 12:21:06 UTC] PHP   3. translations_api() C:\Users\user_0\Local Sites\university\app\public\wp-admin\includes\translation-install.php:133
 [25-Jan-2022 12:21:06 UTC] PHP   4. trigger_error() C:\Users\user_0\Local Sites\university\app\public\wp-admin\includes\translation-install.php:68
+[25-Jan-2022 12:59:13 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\header.php on line 21

@@ -1,6 +1,7 @@
 <?php
 function university_post_types() { //Custom Post Type
     register_post_type('event', array( //names 'event' URL slug
+        'supports' => array('title', 'editor', 'excerpt'), //add modern editor and excerpt menu
         'rewrite' => array('slug' => 'events'), //adds plurality to slug
         'has_archive' => true, //creats URL
         'public' => true,
