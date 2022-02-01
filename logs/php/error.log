@@ -80,3 +80,4 @@ Stack trace:
 #6 C:\Users\user_0\Local Sites\university\app\public\index.php(17): require('C:\\Users\\user_0...')
 #7 {main}
  in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\header.php on line 20
+[01-Feb-2022 11:55:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-program.php on line 42
