@@ -35,7 +35,7 @@ function university_post_types() { //Custom Post Type
 
     //Professor Post Type
     register_post_type('professor', array( 
-        'supports' => array('title', 'editor'),  
+        'supports' => array('title', 'editor', 'thumbnail'),  
         'public' => true,
         'labels' => array( 
             'name' => 'Professors',
