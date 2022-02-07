@@ -83,3 +83,18 @@ Stack trace:
 [01-Feb-2022 11:55:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-program.php on line 42
 [01-Feb-2022 12:37:35 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-program.php on line 42
 [01-Feb-2022 12:38:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-program.php on line 53
+[07-Feb-2022 12:42:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-professor.php:5
+Stack trace:
+#0 C:\Users\user_0\Local Sites\university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\user_0\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\user_0...')
+#2 C:\Users\user_0\Local Sites\university\app\public\index.php(17): require('C:\\Users\\user_0...')
+#3 {main}
+  thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-professor.php on line 5
+[07-Feb-2022 13:01:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\page.php on line 5 and exactly 1 expected in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\page.php(5): pageBanner()
+#1 C:\Users\user_0\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\user_0...')
+#2 C:\Users\user_0\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\user_0...')
+#3 C:\Users\user_0\Local Sites\university\app\public\index.php(17): require('C:\\Users\\user_0...')
+#4 {main}
+  thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\functions.php on line 3

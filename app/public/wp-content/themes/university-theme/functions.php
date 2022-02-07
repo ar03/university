@@ -1,4 +1,37 @@
 <?php
+
+function pageBanner($args = NULL) { 
+    
+    if(!$args['title']) {
+        $args['title'] = get_the_title();
+    }
+    if(!$args['subtitle']) {
+        $args['subtitle'] = get_field('page_banner_subtitle');
+    }
+    if(!$args['image']) {
+        if(get_field('page_banner_background_image')) {
+            $args['image'] = get_field('page_banner_background_image')['sizes']['pageBanner'];
+        } else {
+            $args['photo'] = get_theme_file_uri('/images/ocean.jpg');
+        }
+    }
+
+?>  
+<div class="page-banner">
+    <div class="page-banner__bg-image" style="background-image: url(<?= $args['image']; ?>);"></div>
+      <div class="page-banner__content container container--narrow">
+        <h1 class="page-banner__title"><?= $args['title'] ?></h1>
+        <div class="page-banner__intro">
+          <p><?= $args['subtitle']; ?></p>
+        </div>
+      </div>
+    </div>
+</div>  
+<?php }
+
+
+
+
 function university_files() {
     wp_enqueue_script('main-university-js', get_theme_file_uri('/build/index.js'), array('jquery'), '1.0', true);
     wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/style-index.css'));
