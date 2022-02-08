@@ -98,3 +98,4 @@ Stack trace:
 #3 C:\Users\user_0\Local Sites\university\app\public\index.php(17): require('C:\\Users\\user_0...')
 #4 {main}
   thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\functions.php on line 3
+[08-Feb-2022 11:21:57 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\archive-event.php on line 6
