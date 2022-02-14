@@ -108,3 +108,5 @@ Stack trace:
 #4 C:\Users\user_0\Local Sites\university\app\public\wp-admin\index.php(10): require_once('C:\\Users\\user_0...')
 #5 {main}
   thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\functions.php on line 86
+[14-Feb-2022 12:40:30 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-campus.php on line 58
+[14-Feb-2022 12:40:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-campus.php on line 58
