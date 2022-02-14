@@ -99,3 +99,12 @@ Stack trace:
 #4 {main}
   thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\functions.php on line 3
 [08-Feb-2022 11:21:57 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\archive-event.php on line 6
+[14-Feb-2022 11:27:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filer() in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\functions.php:86
+Stack trace:
+#0 C:\Users\user_0\Local Sites\university\app\public\wp-settings.php(555): include()
+#1 C:\Users\user_0\Local Sites\university\app\public\wp-config.php(77): require_once('C:\\Users\\user_0...')
+#2 C:\Users\user_0\Local Sites\university\app\public\wp-load.php(50): require_once('C:\\Users\\user_0...')
+#3 C:\Users\user_0\Local Sites\university\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\user_0...')
+#4 C:\Users\user_0\Local Sites\university\app\public\wp-admin\index.php(10): require_once('C:\\Users\\user_0...')
+#5 {main}
+  thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\functions.php on line 86
