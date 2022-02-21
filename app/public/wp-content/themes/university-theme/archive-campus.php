@@ -7,7 +7,7 @@ pageBanner(array(
 ));
 ?>
 
-<div class="container container-narrow page-section">
+<div class="container container--narrow page-section">
   <div class="acf-map">
     <?php
       while(have_posts()) {
@@ -17,8 +17,12 @@ pageBanner(array(
           <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
           <?php echo $mapLocation['address']; ?>
         </div>
-        <?php }
-    ?>
+        <?php } ?>
   </div>
 </div>
+
+
+<?php get_footer();
+
+?>
 
