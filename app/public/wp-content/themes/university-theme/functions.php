@@ -33,6 +33,7 @@ function pageBanner($args = NULL) {
 
 
 function university_files() {
+    //wp_enqueue_script('search-js', get_theme_file_uri('/js/search.js'), NULL, microtime(), true);
     wp_enqueue_script('googleMaps', '//maps.googleapis.com/maps/api.js?key=AIzaSyC38gBtNXhfxvJZi9xV-Zc8hmSkWBr8vQY', NULL, '1.0', false);
     wp_enqueue_script('main-university-js', get_theme_file_uri('/build/index.js'), array('jquery'), '1.0', true);
     wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/style-index.css'));
