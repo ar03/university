@@ -110,3 +110,4 @@ Stack trace:
   thrown in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\functions.php on line 86
 [14-Feb-2022 12:40:30 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-campus.php on line 58
 [14-Feb-2022 12:40:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\single-campus.php on line 58
+[22-Feb-2022 12:28:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in C:\Users\user_0\Local Sites\university\app\public\wp-content\themes\university-theme\includes\search-route.php on line 13
