@@ -8,9 +8,10 @@ function univeristyRegisterSearch() {
   ));  
 }
 
-function universitySearchResults() {
+function universitySearchResults($data) {
   $professors = new WP_Query(array(
-    'post_type' => 'professor'
+    'post_type' => 'professor',
+    's' => $data['term']
   ));
 
   $professorResults = array(); 
